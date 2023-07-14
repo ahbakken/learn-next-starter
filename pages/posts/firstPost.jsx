@@ -1,12 +1,13 @@
-import Link from 'next/link'
+import Head from 'next/head'
+import Layout from '../../components/layout'
 export default function FirstPost() {
   return (
-    <>
+    <Layout>
+      <Head>
+        <title>Gostosa Esposa</title>
+      </Head>
       <h1>How I met my gostosa wife</h1>
-      <h2>
-        {/*here Link is used to make the text link back to the main page*/}
-        <Link href="/">Back to home</Link>
-      </h2>
-    </>
+      <p>Tinder, we met on Tinder</p>
+    </Layout>
   )
 }
